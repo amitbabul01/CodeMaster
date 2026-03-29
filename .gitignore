@@ -1,0 +1,73 @@
+# ========================
+# 🔒 ENV & SECRETS
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# 📦 NODE MODULES
+# ========================
+node_modules/
+**/node_modules/
+
+# ========================
+# 🧾 LOG FILES
+# ========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# 🗂 BUILD FILES
+# ========================
+dist/
+build/
+.next/
+out/
+
+# ========================
+# ⚙️ CACHE & TEMP
+# ========================
+.cache/
+.tmp/
+.temp/
+
+# ========================
+# 🧠 OS FILES
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# 🧪 TEST COVERAGE
+# ========================
+coverage/
+
+# ========================
+# 🧑‍💻 EDITOR FILES
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# 🔐 BACKEND SPECIFIC
+# ========================
+backend/.env
+backend/config/*.env
+
+# ========================
+# 🎨 FRONTEND SPECIFIC
+# ========================
+frontend/.env
+frontend/dist
+frontend/node_modules
+
+# ========================
+# 🔑 KEYS (VERY IMPORTANT)
+# ========================
+*.pem
+*.key
+*.crt
