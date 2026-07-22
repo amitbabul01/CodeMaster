@@ -11,10 +11,9 @@ const submitRouter = require('./routes/submit');
 const cors = require('cors');
 
 app.use(cors({
-    origin : 'http://localhost:5173',
-    credentials: true
-
-}))
+    origin: process.env.CLIENT_URL,
+    credentials: true,
+}));
 
 
 
